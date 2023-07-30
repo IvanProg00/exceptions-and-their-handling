@@ -26,7 +26,7 @@ last name should be created. The received data should be recorded in it in one l
 of the form.
 
 ```plain
-Surname, FirstName, patronymic, dateOfBirth, phone, gender
+Surname FirstName patronymic, dateOfBirth, phone, gender
 ```
 
 Namesakes should be written to the same file, in separate lines.

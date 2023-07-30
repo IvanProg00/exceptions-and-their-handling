@@ -47,8 +47,8 @@ public class UserData {
     public String toFileString() {
         String birthdateFormatted = new SimpleDateFormat("dd.MM.yyyy").format(birthdate);
 
-        return surname + " " + name + " " + patronymic + " " + birthdateFormatted + " " +
-                phone + " " + gender + '\n';
+        return surname + " " + name + " " + patronymic + ", " + birthdateFormatted + ", " +
+                phone + ", " + gender + '\n';
     }
 
     @Override
